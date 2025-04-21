@@ -9,7 +9,9 @@
 <body>
   <div id="header">
     <div id="navbar">
-      <div class="note">FREE SHIPPING · COUPON: FREE. Exchanges and returns within 30 days.</div>
+      <div class="note">FREE SHIPPING · COUPON: FREE.
+        <span class="none"> Exchanges and returns within 30 days.</span>
+      </div>
       <div id="countdown">
         <div class="time-group">
           <div id="days" class="time">00</div>
@@ -38,11 +40,11 @@
       </div>
       <img src="img/OrangyLogo.png" alt="OrangyLogo">
       <div id="menu-right">
-        <div id="menu-right-item">
+        <div id="menu-right-item" class="none">
           <i class="fa fa-search"></i>
           SEARCH
         </div>
-        <div id="menu-right-item">
+        <div id="menu-right-item" class="none">
           LOGIN
         </div>
         <div id="menu-right-item">
@@ -70,10 +72,10 @@
       </div>
     </div>
     <div id="content-item-2">
-      <div>
+      <div class="item1">
         <img src="img/image3.png" alt="">
       </div>
-      <div class="passage" id="passage1">
+      <div class="passage item2" id="passage1">
         <div class="passage-item">
           <div class="title">Lorem ipsum</div>
           <div class="text">Excepteur eiusmod consectetur</div>
@@ -84,14 +86,14 @@
           <div class="note">Proident dolore nisi eiusmod excepteur aliquip esse ut excepteur. Non excepteur sunt reprehenderit sit ex ullamco eiusmod Lorem incididunt nisi mollit nostrud. Irure velit enim elit minim commodo qui culpa cillum duis fugiat consequat pariatur.</div>
         </div>
       </div>
-      <div class="passage" id="passage2">
+      <div class="passage item3" id="passage2">
         <div class="passage-item">
           <div class="title">Mollit aliquip do ipsum consectetur</div>
           <div class="note">Ex laborum ea qui consectetur mollit commodo eiusmod culpa dolor cupidatat. Ullamco dolore irure ea sit elit velit non officia. Ad eu reprehenderit in et voluptate mollit. Reprehenderit incididunt magna consequat enim sit eiusmod est dolor laborum cupidatat.</div>
           <div class="note">Ipsum minim mollit irure dolore. Sint fugiat deserunt dolor aute enim et cillum adipisicing cillum nostrud anim. Sit dolore incididunt dolore do sunt pariatur consectetur id qui pariatur eu incididunt adipisicing. Irure sint fugiat officia veniam consectetur. Esse laborum amet aliqua ad in sunt labore duis.</div>
         </div>
       </div>
-      <div>
+      <div class="item4">
         <img src="img/image4.png" alt="">
       </div>
     </div>
@@ -110,6 +112,7 @@
             <div class="tag tag1">New</div>
             <div class="tag tag2">Sale</div>
             <i class="fa fa-heart like"></i>
+            <button class="btn-md">&#x2B;</button>
             <div class="product-color">
               <div class="color color-1"></div>
               <div class="color color-2"></div>
@@ -120,7 +123,11 @@
           </div>
           <div class="note">
             <div>Lorem ullamco</div>
-            <div>17,99€</div>
+            <div class="price">
+              <div>17,99€</div>
+              <div class="price-root">25,99€</div>
+              <div class="discount">-15%</div>
+            </div>
           </div>
         </div>
         <div>
@@ -129,6 +136,7 @@
             <div class="tag tag1">New</div>
             <div class="tag tag2">Sale</div>
             <i class="fa fa-heart like"></i>
+            <button class="btn-md">&#x2B;</button>
             <div class="product-color">
               <div class="color color-1"></div>
               <div class="color color-2"></div>
@@ -139,7 +147,11 @@
           </div>
           <div class="note">
             <div>Lorem ullamco</div>
-            <div>17,99€</div>
+            <div class="price">
+              <div>17,99€</div>
+              <div class="price-root">25,99€</div>
+              <div class="discount">-15%</div>
+            </div>
           </div>
         </div>
         <div>
@@ -148,6 +160,7 @@
             <div class="tag tag1">New</div>
             <div class="tag tag2">Sale</div>
             <i class="fa fa-heart like"></i>
+            <button class="btn-md">&#x2B;</button>
             <div class="product-color">
               <div class="color color-1"></div>
               <div class="color color-2"></div>
@@ -158,7 +171,11 @@
           </div>
           <div class="note">
             <div>Lorem ullamco</div>
-            <div>17,99€</div>
+            <div class="price">
+              <div>17,99€</div>
+              <div class="price-root">25,99€</div>
+              <div class="discount">-15%</div>
+            </div>
           </div>
         </div>
         <div>
@@ -167,6 +184,7 @@
             <div class="tag tag1">New</div>
             <div class="tag tag2">Sale</div>
             <i class="fa fa-heart like"></i>
+            <button class="btn-md">&#x2B;</button>
             <div class="product-color">
               <div class="color color-1"></div>
               <div class="color color-2"></div>
@@ -177,7 +195,11 @@
           </div>
           <div class="note">
             <div>Lorem ullamco</div>
-            <div>17,99€</div>
+            <div class="price">
+              <div>17,99€</div>
+              <div class="price-root">25,99€</div>
+              <div class="discount">-15%</div>
+            </div>
           </div>
         </div>
       </div>
@@ -192,22 +214,24 @@
       <div class="image">
         <img src="img/image6.png" alt="">
       </div>
-      <div id="tag-group">
-        <div class="tag-item">
-          <img src="img/Group 460.png" alt="">
-          <div class="tag-text">Veniam exercitation reprehenderit proident cillum consequat est irure duis. Esse est qui mollit adipisicing dolore ut qui reprehenderit nulla dolore consectetur velit.</div>
-        </div>
-        <div class="tag-item">
-          <img src="img/Group 460.png" alt="">
-          <div class="tag-text">Lorem ullamco in est sit proident elit adipisicing dolor occaecat enim et sunt. Proident duis sunt sit veniam non. Dolore ut officia consectetur excepteur consequat reprehenderit.</div>
-        </div>
-        <div class="tag-item">
-          <img src="img/Group 460.png" alt="">
-          <div class="tag-text">Lorem ullamco in est sit proident elit adipisicing dolor occaecat enim et sunt. Proident duis sunt sit veniam non. Dolore ut officia consectetur excepteur consequat reprehenderit.</div>
-        </div>
-        <div class="tag-item">
-          <img src="img/Group 460.png" alt="">
-          <div class="tag-text">Lorem ullamco in est sit proident elit adipisicing dolor occaecat enim et sunt. Proident duis sunt sit veniam non. Dolore ut officia consectetur excepteur consequat reprehenderit.</div>
+      <div id="tag-body">
+        <div id="tag-group">
+          <div class="tag-item">
+            <img src="img/Group 460.png" alt="">
+            <div class="tag-text">Veniam exercitation reprehenderit proident cillum consequat est irure duis. Esse est qui mollit adipisicing dolore ut qui reprehenderit nulla dolore consectetur velit.</div>
+          </div>
+          <div class="tag-item">
+            <img src="img/Group 460.png" alt="">
+            <div class="tag-text">Lorem ullamco in est sit proident elit adipisicing dolor occaecat enim et sunt. Proident duis sunt sit veniam non. Dolore ut officia consectetur excepteur consequat reprehenderit.</div>
+          </div>
+          <div class="tag-item">
+            <img src="img/Group 460.png" alt="">
+            <div class="tag-text">Lorem ullamco in est sit proident elit adipisicing dolor occaecat enim et sunt. Proident duis sunt sit veniam non. Dolore ut officia consectetur excepteur consequat reprehenderit.</div>
+          </div>
+          <div class="tag-item">
+            <img src="img/Group 460.png" alt="">
+            <div class="tag-text">Lorem ullamco in est sit proident elit adipisicing dolor occaecat enim et sunt. Proident duis sunt sit veniam non. Dolore ut officia consectetur excepteur consequat reprehenderit.</div>
+          </div>
         </div>
       </div>
     </div>
@@ -247,62 +271,66 @@
   </div>
 
   <div id="footer">
-    <div id="footer-left">
-      <div class="note">
-        Free shipping on orders over €50 <br>
-        2-year product warranty <br>
-        30-day returns <br>
+    <div id="footer-top">
+      <div id="footer-left">
+        <div class="note">
+          Free shipping on orders over €50 <br>
+          2-year product warranty <br>
+          30-day returns <br>
+        </div>
+        <div class="text">
+          <div class="title">Join our Newsletter</div>
+          <div>Be the first to find out about news and exclusive offers from Orangy</div>
+        </div>
+        <button class="btn">SUBSCRIBE</button>
+        <div class="link">
+          <img src="img/youtube.svg" alt="">
+          <img src="img/instagram.svg" alt="">
+          <img src="img/linkedin.svg" alt="">
+          <img src="img/twitter.svg" alt="">
+          <img src="img/facebook.svg" alt="">
+        </div>
       </div>
-      <div class="text">
-        <div class="title">Join our Newsletter</div>
-        <div>Be the first to find out about news and exclusive offers from Orangy</div>
+      <div id="footer-right">
+        <div class="link">
+          <div class="link-item">
+            <div>Lorem ipsum</div>
+            <div>Nisi culpa</div>
+            <div>Voluptate</div>
+            <div>Aute duis</div>
+            <div>Aute duis</div>
+            <div>Lorem ullamco</div>
+          </div>
+          <div class="link-item">
+            <div>Company</div>
+            <div>About Us</div>
+            <div>Our commitment</div>
+            <div>#Orangy</div>
+            <div>Inspiration</div>
+          </div>
+          <div class="link-item">
+            <div>Contact</div>
+            <div>Where to find us</div>
+            <div>Customer Service</div>
+            <div>Open your franchise</div>
+            <div>Whistleblower channel</div>
+          </div>
+          <div class="link-item">
+            <div>Lorem ipsum</div>
+            <div>Nisi culpa</div>
+            <div>Voluptate</div>
+            <div>Aute duis</div>
+            <div>Aute duis</div>
+            <div>Lorem ullamco</div>
+          </div>
+        </div>
       </div>
-      <button class="btn">SUBSCRIBE</button>
-      <div class="link">
-        <img src="img/youtube.svg" alt="">
-        <img src="img/instagram.svg" alt="">
-        <img src="img/linkedin.svg" alt="">
-        <img src="img/twitter.svg" alt="">
-        <img src="img/facebook.svg" alt="">
-      </div>
+    </div>
+    <div id="footer-bot">
       <div class="lang">
         <img src="img/Vector.svg" alt="">
         <div>GERMAN (€)</div>
         <div>VIETNAMESE (đ)</div>
-      </div>
-    </div>
-    <div id="footer-right">
-      <div class="link">
-        <div class="link-item">
-          <div>Lorem ipsum</div>
-          <div>Nisi culpa</div>
-          <div>Voluptate</div>
-          <div>Aute duis</div>
-          <div>Aute duis</div>
-          <div>Lorem ullamco</div>
-        </div>
-        <div class="link-item">
-          <div>Company</div>
-          <div>About Us</div>
-          <div>Our commitment</div>
-          <div>#Orangy</div>
-          <div>Inspiration</div>
-        </div>
-        <div class="link-item">
-          <div>Contact</div>
-          <div>Where to find us</div>
-          <div>Customer Service</div>
-          <div>Open your franchise</div>
-          <div>Whistleblower channel</div>
-        </div>
-        <div class="link-item">
-          <div>Lorem ipsum</div>
-          <div>Nisi culpa</div>
-          <div>Voluptate</div>
-          <div>Aute duis</div>
-          <div>Aute duis</div>
-          <div>Lorem ullamco</div>
-        </div>
       </div>
       <div class="policy">
         <div>© Orangy</div>
@@ -361,7 +389,6 @@ const countdown = () => {
   const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
   const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
   const seconds = Math.floor((distance % (1000 * 60)) / 1000);
-  console.log("distance", endDate)
   document.getElementById("days").innerText = days < 10 ? "0" + days : days;
   document.getElementById("hours").innerText = hours < 10 ? "0" + hours : hours;
   document.getElementById("min").innerText = minutes < 10 ? "0" + minutes : minutes;
@@ -487,6 +514,7 @@ body {
   font-size: 16px;
   font-weight: 400;
   max-width: 753px;
+  width: 100%;
   font-family: Lato;
   margin-left: auto;
   margin-right: auto;
@@ -577,6 +605,9 @@ body {
 #content-item-4 .item-right .product {
   position: relative;
 }
+#content-item-4 .item-right .product .btn-md {
+  display: none;
+}
 #content-item-4 .item-right .product .tag {
   position: absolute;
   top: 16px;
@@ -598,12 +629,12 @@ body {
 }
 #content-item-4 .item-right .product .product-color {
   position: absolute;
-    bottom: 14px;
-    left: 0;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  bottom: 14px;
+  left: 0;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 #content-item-4 .item-right .product .product-color .color {
   width: 8px;
@@ -662,12 +693,14 @@ body {
   width: 100%;
   border-radius: 16px;
 }
+#content-item-5 #tag-body {
+  position: absolute;
+  top: 360px;
+}
 #content-item-5 #tag-group {
   display: grid;
   grid-template-columns: 25% 25% 25% 25%;
   column-gap: 30px;
-  position: absolute;
-  top: 360px;
   width: 90%;
 }
 .tag-item {
@@ -756,11 +789,13 @@ body {
   border-bottom-left-radius: 16px;
 }
 #footer {
-  display: flex;
-  justify-content: space-between;
   margin-top: 80px;
   padding: 49px 49px 20px 49px;
   background-color: #F4F0EA;
+}
+#footer-top {
+  display: flex;
+  justify-content: space-between;
 }
 #footer-left {
   width: 300px;
@@ -798,10 +833,9 @@ body {
   margin-right: 10px;
   padding: 7.45px;
 }
-#footer-left .lang{
+.lang{
   display: flex;
   align-items: center;
-  margin-top: 30px;
   font-size: 14px;
   font-weight: 400;
 }
@@ -826,18 +860,233 @@ body {
   font-size: 14px;
   font-weight: 400;
 }
-#footer-right .policy{
+.policy{
   display: flex;
   justify-content: end;
   font-size: 14px;
   font-weight: 400;
   line-height: 22px;
-  margin-top: 152px;
 }
-#footer-right .policy div{
+.policy div{
   margin-left: 13px;
 }
-#footer-right .policy .text-blur{
+.policy .text-blur{
   color: #797E7E;
+}
+#footer-bot {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 30px;
+}
+@media screen and (max-width: 990px) {
+  #header {
+    height: 721px;
+  }
+  #navbar .note {
+    font-size: 9px;
+  }
+  #navbar .none {
+    display: none;
+  }
+  #navbar #countdown .time {
+    font-size: 12px;
+  }
+  #navbar #countdown .unit {
+    font-size: 8px;
+  }
+  #menu #menu-right .none {
+    display: none;
+  }
+  #text-content {
+    font-size: 48px;
+    line-height: 56px;
+    width: 80%;
+    margin-top: 120px;
+  }
+  #content {
+    margin-top: 40px;
+    max-width: 700px;
+  }
+  #content #content-item-1 #title {
+    font-size: 32px;
+  }
+  #content #content-item-1 #img-group {
+    margin-top: 27px;
+    margin-bottom: 5px;
+  }
+  #content #content-item-1 #img-group img {
+    margin: 0 2.25px;
+    border-radius: 16px;
+    max-width: 177px;
+    width: 50%;
+  }
+  #content #content-item-1 .text {
+    font-size: 14px;
+    max-width: 353px;
+    margin-top: 22px;
+  }
+  #content-item-2 {
+    margin-top: 40px;
+    grid-template-columns: 100%;
+  }
+  #content-item-2 .item1{
+    grid-area: 2 / 1;
+    text-align: center;
+  }
+  #content-item-2 .item2{
+    grid-area: 1 / 1;
+  }
+  #content-item-2 .item4{
+    text-align: center;
+  }
+  #content-item-2 img {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #content-item-2 .passage {
+    max-width: 684px;
+    width: 100%;
+    padding: 34px 0 42px 0;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #content-item-2 .passage .passage-item {
+    max-width: 323px;
+    position: static;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #content-item-2 .passage .title {
+    font-size: 32px;
+    line-height: 42px;
+    margin-bottom: 16px;
+  }
+  #content-item-3 {
+    margin-top: 40px;
+  }
+  #content-item-3 .text {
+    font-size: 28px;
+  }
+  #content-item-4 {
+    grid-template-columns: 100%;
+    margin-top: 40px;
+    row-gap: 6px;
+  }
+  #content-item-4 .item-right img {
+    max-width: 100%;
+  }
+  #content-item-4 .item-right .product .btn-md {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    background-color: #FFFFFF;
+    border: none;
+    border-radius: 8px;
+    padding: 10px;
+    font-size: 20px;
+    width: 32px;
+    height: 32px;
+  }
+  #content-item-4 .item-right .product .product-color {
+    display: none;
+  }
+  #content-item-4 .item-right .note {
+    flex-direction: column;
+  }
+  #content-item-4 .item-right .note .price {
+    display: flex;
+    margin-top: 8px;
+  }
+  #content-item-4 .item-right .note .price div {
+    margin-right: 7px;
+  }
+  .price-root {
+    text-decoration: line-through;
+    color: #797E7E;
+  }
+  .discount {
+    background-color: #FF0000;
+    color: #FFFFFF;
+    padding: 4px;
+    border-radius: 4px;
+  }
+  #content-item-5 {
+    grid-template-columns: 100%;
+    margin-top: 40px;
+    row-gap: 27px;
+    text-align: center;
+  }
+  #content-item-5 .title {
+    font-size: 32px;
+    line-height: 42px;
+    margin-top: 0;
+  }
+  #content-item-5 .text {
+    font-size: 14px;
+    max-width: 353px;
+    width: 100%;
+    margin-top: 27px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #content-item-5 #tag-body {
+    width: 100%;
+    overflow-x: scroll;
+  }
+  #content-item-5 #tag-group {
+    width: 1377px;
+  }
+  #carousel {
+    grid-template-columns: 75% 25%;
+    margin-top: 200px;
+    max-width: 800px;
+  }
+  #carousel-item-3, #carousel-item-4 {
+    display: none;
+  }
+  #footer {
+    margin-top: 40px;
+    padding: 40px 16px 20px 16px;
+    background-color: #F4F0EA;
+  }
+  #footer-top {
+    flex-direction: column;
+  }
+  #footer-left {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+  #footer-left .text {
+    margin-top: 32px;
+  }
+  #footer-left .link{
+    margin-top: 32px;
+  }
+  
+}
+@media screen and (max-width: 650px) {
+  #footer-right .link{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    row-gap: 53px;
+    column-gap: 43px;
+  }
+  #footer-bot {
+    flex-direction: column;
+    margin-top: 57px;
+    align-items: start;
+  }
+  .policy {
+    margin-top: 24px;
+    flex-wrap: wrap;
+    justify-content: start;
+  }
+  .policy div:first-child {
+    margin-left: 0;
+  }
 }
 </style>
